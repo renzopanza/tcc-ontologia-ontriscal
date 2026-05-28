@@ -21,7 +21,7 @@ A Ontologia da Estratificação de Riscos em Saúde Mental (ONTRISCAL) foi desen
 - Estratificação de risco em ansiedade,
 - Dados sociodemográficos do paciente,
 - Técnicas e intervenções da TCC,
-- Níveis de risco,
+- Níveis de risco (Separados em Baixo, Médio e Alto),
 - Crenças centrais e pensamentos automáticos;
 
 Referência Original:
@@ -29,7 +29,7 @@ DA SILVA, Evaldo de Oliveira. Homogenise: método para modelagem ontológica do 
 
 
 -> Como este repositório esta relacionado com o TCC:
-Durante o desenvolvimento do presente TCC, a ontologia ONTRISCAL foi adotada como domínio base no mapeamento das variáveis dos dados de TCC a conceitos ontológicos utilizados nos documentos do Dicionário de Dados Semântico, na fundamentação das triplas RDF/OWL que compoem o Grafo de Conhecimento e nas inferências feitas via SPARQL sobre os padrões clínicos da TCC.
+Durante o desenvolvimento do presente trabalho, a ontologia ONTRISCAL foi adotada como domínio base no mapeamento das variáveis dos dados de TCC a conceitos ontológicos utilizados nos documentos do Dicionário de Dados Semântico, na fundamentação das triplas RDF/OWL que compoem o Grafo de Conhecimento e nas inferências feitas via SPARQL sobre os padrões clínicos da TCC.
 
 -> Estrutura do repositório:
 
@@ -38,13 +38,19 @@ tcc-ontologia-ontriscal/
 ├── ontologia-ontriscal/
 │   ├── ontriscal_gufo_owl.owl
 ├── imagens-ontriscal/
-│   ├── 
+│   ├── classe-ontriscal-1.png
+│   ├── classe-ontriscal-2.png
+│   ├── classe-ontriscal-3.png
+│   ├── classe-ontriscal-4.png
+│   ├── classe-ontriscal-5.png
 
 
 -> Classes da ONTRISCAL:
 A ONTRISCAL possui classes que foram criadas para representarem conceitos e propriedades relevantes para o seu domínio. Os conceitos listados são utilizados para a anotação de dados clinicos, sociodemográficos e níveis de cuidados (Silva, 2023). As classes presentes nesta ontologia se encontram em figuras salvas dentro da pasta 'tcc-ontologia-ontriscal/imagens-ontriscal/'. 
 
-Ambas as imagens são de autoria do autor e foram feitas usando o Protégé.
+Ambas as imagens são de autoria do autor e foram feitas usando o Protégé¹.
 
 Referências:
 DA SILVA, Evaldo de Oliveira. Homogenise: método para modelagem ontológica do conhecimento em pesquisas quali-quanti. 2023.
+
+¹ https://protege.stanford.edu/
